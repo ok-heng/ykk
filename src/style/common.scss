@@ -1,0 +1,30 @@
+body, div, span, header, footer, nav, section, aside, article, 
+ul, dl, dt, dd, li, a, p, h1, h2, h3, h4,h5, h6, i, b, textarea, 
+button, input, select, figure {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    color: #222;
+    font-weight: normal;
+    //font-family: "Microsoft Yahei";
+    //box-sizing: border-box;
+    //-webkit-tap-highlight-color:transparent;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    //font-family: "Avenir", Helvetica, Arial, sans-serif !important;
+
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
+     "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    &:hover{
+        outline: none;
+    }
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+}
