@@ -6,10 +6,10 @@ module.exports = {
         env: {
             NODE_ENV: '"production"'
         },
-        index: path.resolve(__dirname, '../ykk/index.html'),
-        assetsRoot: path.resolve(__dirname, '../ykk'),
+        index: path.resolve(__dirname, '../amkiki/index.html'),
+        assetsRoot: path.resolve(__dirname, '../amkiki'),
         assetsSubDirectory: 'static',
-        assetsPublicPath: '/ykk/',
+        assetsPublicPath: '/amkiki/',
         productionSourceMap: true,
         // Surge or Netlify already gzip all static assets for you.
         // Before setting to `true`, make sure to:
@@ -27,7 +27,7 @@ module.exports = {
         context: [ //代理路径
             
         ],
-        proxypath: 'http://ykk.com:8001',
+        proxypath: 'http://amkiki.com:8001',
         // CSS Sourcemaps off by default because relative paths are "buggy"
         // with this option, according to the CSS-Loader README
         // (https://github.com/webpack/css-loader#sourcemaps)
